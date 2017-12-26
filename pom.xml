@@ -11,6 +11,7 @@
     <properties>
         <kotlin.version>1.2.10</kotlin.version>
         <kotlin.compiler.incremental>true</kotlin.compiler.incremental>
+        <main.class>io.github.juanlucode.DicesPokerApp</main.class>
     </properties>
 
     <dependencies>
