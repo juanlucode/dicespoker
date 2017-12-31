@@ -23,7 +23,7 @@ class Styles : Stylesheet() {
 
         }
 
-            root {
+        root {
 
             alignment = Pos.CENTER
         }

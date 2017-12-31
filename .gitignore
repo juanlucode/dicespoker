@@ -106,3 +106,5 @@ fabric.properties
 # LibreOffice locks
 .~lock.*#
 
+/dicespoker.iml
+/.idea/
