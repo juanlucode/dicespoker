@@ -31,5 +31,6 @@ class Styles : Stylesheet() {
         button {
             backgroundColor += c("red")
         }
+
     }
 }
