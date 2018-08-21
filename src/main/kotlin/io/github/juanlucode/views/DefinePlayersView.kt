@@ -22,7 +22,7 @@ class DefinePlayersView : View("DEFINE PLAYERS") {
     override val root = vbox {
         prefHeight = 622.0
         prefWidth = 810.0
-        label("DEFINE PLAYERS")
+        label("Define players")
         hbox{
             alignment = Pos.CENTER
             label("Player 1")
