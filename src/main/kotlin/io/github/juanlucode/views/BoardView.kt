@@ -18,46 +18,6 @@ class BoardView : View("Board") {
             hbox{
                 prefHeight = 423.0
                 prefWidth = 810.0
-                hboxConstraints {
-                    c("#167541", 0.0)
-                }
-                hbox {
-                    imageview{
-                        id = "dado1ImageView"
-                        image = resources.image("poker1.png")
-                        hboxConstraints {
-                            margin = Insets(10.0)
-                        }
-                    }
-                    imageview{
-                        id = "dado2ImageView"
-                        image = resources.image("poker2.png")
-                        hboxConstraints {
-                            margin = Insets(10.0)
-                        }
-                    }
-                    imageview{
-                        id = "dado3ImageView"
-                        image = resources.image("poker3.png")
-                        hboxConstraints {
-                            margin = Insets(10.0)
-                        }
-                    }
-                    imageview{
-                        id = "dado4ImageView"
-                        image = resources.image("poker4.png")
-                        hboxConstraints {
-                            margin = Insets(10.0)
-                        }
-                    }
-                    imageview{
-                        id = "dado5ImageView"
-                        image = resources.image("poker5.png")
-                        hboxConstraints {
-                            margin = Insets(10.0)
-                        }
-                    }
-                }
             }
             tableview(controller.players) {
                 prefHeight = 200.0
